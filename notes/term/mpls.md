@@ -1,4 +1,4 @@
-# [MPLS (Multiprotocol Label Switching)](/home/pranav/Projects/Elitech/notes/terms.md)
+# [MPLS (Multiprotocol Label Switching)](notes/terms.md)
 
 - MPLS is a technique for setting up long-range network connections.
 
