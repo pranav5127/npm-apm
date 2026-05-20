@@ -1,7 +1,7 @@
 
 | Acronym | Full Form | Link |
 |---|---|---|
-| MPLS | Multiprotocol Label Switching | [mpls.md](/home/pranav/Projects/Elitech/notes/term/mpls.md)| 
+| MPLS | Multiprotocol Label Switching | [mpls.md](term/mpls.md)| 
 | SASE | Secure Access Service Edge | |
 | SDN | Software Defined Networking | |
 | SD-WAN | Software Defined Wide Area Network | |
