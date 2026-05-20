@@ -2,7 +2,7 @@
 
 - MPLS is a technique for setting up long-range network connections.
 - MPLS forwards packets along pre-established label-switched paths (LSPs). Because forwarding decisions are based on labels instead of full IP routing lookups at every hop, packets can follow a consistent, predetermined path through the network.
-- MPLS is considered to operate at ==OSI layer 2.5==, below the network layer (layer 3) and above the data link layer (layer 2).
+- MPLS is considered to operate at <mark>OSI layer 2.5</mark>, below the network layer (layer 3) and above the data link layer (layer 2).
 
 - [https://www.cloudflare.com/learning/network-layer/what-is-mpls/](https://www.cloudflare.com/learning/network-layer/what-is-mpls/)
 
