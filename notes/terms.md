@@ -1,0 +1,24 @@
+
+| Acronym | Full Form | Link |
+|---|---|---|
+| MPLS | Multiprotocol Label Switching | [mpls.md](/home/pranav/Projects/Elitech/notes/term/mpls.md)| 
+| SASE | Secure Access Service Edge | |
+| SDN | Software Defined Networking | |
+| SD-WAN | Software Defined Wide Area Network | |
+| UCaaS | Unified Communication as a Service | |
+| MTTK | Mean Time to Knowledge | |
+| MTTR | Mean Time to Resolution  | |
+| WMI | Windows Management Instrumentation | |
+| SNMP | Simple Network Management Protocol | |
+| API | Application Programming Interface | |
+| CLI | Command Line Interface | |
+| QoS | Quality of Service | |
+| SLA | Service Level Agreement | |
+| ZTNA | Zero Trust Network Access | |
+| VPN | Virtual Private Network| |
+
+
+
+
+
+

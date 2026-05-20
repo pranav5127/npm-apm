@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/pranav/Projects/Elitech/notes/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+Endpoint Packet Analysis:	nmp.md	/^## Endpoint Packet Analysis:$/;"	s	chapter:Network Peformance Monitoring (NPM).
+Flow Data Analysis:	nmp.md	/^## Flow Data Analysis: $/;"	s	chapter:Network Peformance Monitoring (NPM).
+Full Packet Capture:	nmp.md	/^## Full Packet Capture:$/;"	s	chapter:Network Peformance Monitoring (NPM).
+Network Peformance Monitoring (NPM).	nmp.md	/^# Network Peformance Monitoring (NPM).$/;"	c
+SNMP Monitoring	nmp.md	/^## SNMP Monitoring$/;"	s	chapter:Network Peformance Monitoring (NPM).
+[MPLS (Multiprotocol Label Switching)](/home/pranav/Projects/Elitech/notes/terms.md)	term/mpls.md	/^# [MPLS (Multiprotocol Label Switching)](\/home\/pranav\/Projects\/Elitech\/notes\/terms.md)$/;"	c
