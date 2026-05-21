@@ -3,7 +3,7 @@
 |---|---|---|
 | MPLS | Multiprotocol Label Switching | [mpls.md](term/mpls.md)| 
 | SASE | Secure Access Service Edge | |
-| SDN | Software Defined Networking | |
+| SDN | Software Defined Networking | [sdn.md](term/sdn.md)|
 | SD-WAN | Software Defined Wide Area Network |[sdwan.md](term/sdwan.md)|
 | UCaaS | Unified Communication as a Service | |
 | MTTK | Mean Time to Knowledge | |
