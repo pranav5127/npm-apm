@@ -16,6 +16,9 @@
 | SLA | Service Level Agreement | |
 | ZTNA | Zero Trust Network Access | |
 | VPN | Virtual Private Network| |
+| NaaS | Network as a Service| |
+| SaaS | Software as a Service| |
+|IaaS | Infrastructure as a Service| |
 
 
 
