@@ -13,6 +13,7 @@
     --text-color: #1a1a1a;
     --text-light: #4a4a4a;
     --border-color: #d0d0d0;
+    --button-background: #ffffff;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.15);
     --transition: all 0.3s ease;
@@ -29,6 +30,7 @@
         --text-color: #f0f0f0;
         --text-light: #d0d0d0;
         --border-color: #333333;
+        --button-background: #2a2a2a;
         --shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
         --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.7);
     }
@@ -53,6 +55,28 @@
 
     .box p {
         color: #d0d0d0;
+    }
+
+    .term-btn {
+        background-color: var(--button-background);
+        border-color: #444444;
+        color: var(--text-color);
+    }
+
+    .term-btn:hover {
+        background-color: #3a3a3a;
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+    }
+
+    .term-btn.active {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: #ffffff;
+    }
+
+    .sidebar-footer {
+        border-top-color: #333333;
     }
 }
 
@@ -137,7 +161,7 @@ main {
 }
 
 .term-btn {
-    background-color: #ffffff;
+    background-color: var(--button-background);
     border: 2px solid var(--border-color);
     color: var(--text-color);
     padding: 0.75rem 1rem;
