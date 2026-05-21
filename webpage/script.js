@@ -95,7 +95,7 @@ const termsData = {
         title: 'SDN (Software Defined Networking)',
         content: `
             <div class="term-view">
-                <h2>🔧 SDN (Software Defined Networking)</h2>
+                <h2>SDN (Software Defined Networking)</h2>
                 
                 <h3>Overview</h3>
                 <ul>
@@ -130,7 +130,7 @@ const termsData = {
                 </ul>
 
                 <div class="box">
-                    <h4>📚 Learn More</h4>
+                    <h4>Learn More</h4>
                     <p><a href="https://www.cloudflare.com/learning/network-layer/what-is-sdn/" target="_blank">Cloudflare: What is SDN?</a></p>
                 </div>
             </div>
@@ -140,7 +140,7 @@ const termsData = {
         title: 'SD-WAN (Software Defined - Wide Area Network)',
         content: `
             <div class="term-view">
-                <h2>🌍 SD-WAN (Software Defined - Wide Area Network)</h2>
+                <h2>SD-WAN (Software Defined - Wide Area Network)</h2>
                 
                 <h3>Core Concept</h3>
                 <ul>
@@ -160,27 +160,27 @@ const termsData = {
 
                 <h3>SD-WAN Architecture Components</h3>
                 <div class="box">
-                    <h4>🎛️ SD-WAN Controller</h4>
+                    <h4>SD-WAN Controller</h4>
                     <p>Central system that decides traffic policies and routes throughout the network</p>
                 </div>
                 <div class="box">
-                    <h4>🔌 SD-WAN Edge</h4>
+                    <h4>SD-WAN Edge</h4>
                     <p>Connects local networks to the SD-WAN and applies controller policies at the edge</p>
                 </div>
                 <div class="box">
-                    <h4>⚙️ SD-WAN Orchestrator</h4>
+                    <h4>SD-WAN Orchestrator</h4>
                     <p>Manages and coordinates the entire SD-WAN deployment from one unified dashboard</p>
                 </div>
 
                 <h3>Key Advantages</h3>
                 <ul>
-                    <li>⭐ <strong>Flexibility:</strong> Adapt to multiple connection types and hardware platforms</li>
-                    <li>💰 <strong>Cost Savings:</strong> More economical than traditional WAN solutions</li>
-                    <li>📈 <strong>Scalability:</strong> Easily expand network capacity and branch connections</li>
+                    <li><strong>Flexibility:</strong> Adapt to multiple connection types and hardware platforms</li>
+                    <li><strong>Cost Savings:</strong> More economical than traditional WAN solutions</li>
+                    <li><strong>Scalability:</strong> Easily expand network capacity and branch connections</li>
                 </ul>
 
                 <div class="box">
-                    <h4>📚 Learn More</h4>
+                    <h4>Learn More</h4>
                     <p><a href="https://www.cloudflare.com/learning/network-layer/what-is-an-sd-wan/" target="_blank">Cloudflare: What is SD-WAN?</a></p>
                 </div>
             </div>
@@ -190,7 +190,7 @@ const termsData = {
         title: 'MPLS (Multiprotocol Label Switching)',
         content: `
             <div class="term-view">
-                <h2>🏷️ MPLS (Multiprotocol Label Switching)</h2>
+                <h2>MPLS (Multiprotocol Label Switching)</h2>
                 
                 <h3>Overview</h3>
                 <ul>
@@ -209,15 +209,15 @@ const termsData = {
 
                 <h3>Key Concepts</h3>
                 <div class="box">
-                    <h4>📌 Forwarding Equivalence Class (FEC)</h4>
+                    <h4>Forwarding Equivalence Class (FEC)</h4>
                     <p>In MPLS, each packet is assigned to a class called a <strong>forwarding equivalence class</strong> (FEC)</p>
                 </div>
                 <div class="box">
-                    <h4>🛣️ Label-Switched Paths (LSP)</h4>
+                    <h4>Label-Switched Paths (LSP)</h4>
                     <p>The network paths that packets can take are called <strong>label-switched paths (LSP)</strong></p>
                 </div>
                 <div class="box">
-                    <h4>🔄 Path Selection</h4>
+                    <h4>Path Selection</h4>
                     <p>All packets with the same FEC follow the same LSP through the network</p>
                 </div>
 
@@ -226,28 +226,28 @@ const termsData = {
                     <li>Each packet carries <strong>one or more MPLS labels</strong> in an MPLS header</li>
                     <li>Routers forward packets based on these <strong>labels instead of checking the IP header</strong></li>
                     <li>This mechanism directs packets along the correct Label Switched Path</li>
-                    <li>⚠️ <strong>Important:</strong> MPLS does <strong>not encrypt traffic</strong> by default</li>
+                    <li><strong>Important:</strong> MPLS does <strong>not encrypt traffic</strong> by default</li>
                 </ul>
 
                 <h3>Drawbacks</h3>
                 <div class="box">
-                    <h4>💸 High Cost</h4>
+                    <h4>High Cost</h4>
                     <p>More expensive than regular Internet connections</p>
                 </div>
                 <div class="box">
-                    <h4>⏱️ Slow Setup</h4>
+                    <h4>Slow Setup</h4>
                     <p>Configuring LSPs takes time and limits quick scaling</p>
                 </div>
                 <div class="box">
-                    <h4>🔧 Complex Management</h4>
+                    <h4>Complex Management</h4>
                     <p>Requires coordination with multiple ISPs across regions</p>
                 </div>
                 <div class="box">
-                    <h4>🔐 No Built-in Encryption</h4>
+                    <h4>No Built-in Encryption</h4>
                     <p>Data is sent in plaintext unless extra security is added</p>
                 </div>
                 <div class="box">
-                    <h4>☁️ Cloud Limitations</h4>
+                    <h4>Cloud Limitations</h4>
                     <p>Difficult to create direct connections to cloud services</p>
                 </div>
 
@@ -259,7 +259,7 @@ const termsData = {
                 </ul>
 
                 <div class="box">
-                    <h4>📚 Learn More</h4>
+                    <h4>Learn More</h4>
                     <p><a href="https://www.cloudflare.com/learning/network-layer/what-is-mpls/" target="_blank">Cloudflare: What is MPLS?</a></p>
                 </div>
             </div>
