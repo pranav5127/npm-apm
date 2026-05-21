@@ -18,6 +18,36 @@
     --transition: all 0.3s ease;
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #4d94ff;
+        --secondary-color: #66b3ff;
+        --accent-color: #80c7ff;
+        --background-color: #1a1a1a;
+        --card-background: #2d2d2d;
+        --text-color: #e0e0e0;
+        --text-light: #b0b0b0;
+        --border-color: #404040;
+        --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.5);
+    }
+
+    .mark {
+        background-color: #4a4a1a;
+        color: #ffd700;
+    }
+
+    .terms-table tbody tr:hover {
+        background-color: rgba(77, 148, 255, 0.1);
+    }
+
+    .box {
+        background-color: #333333;
+        border-left-color: #80c7ff;
+    }
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--background-color);
@@ -268,15 +298,6 @@ main {
     color: var(--primary-color);
     font-weight: 600;
     margin-bottom: 0.5rem;
-}
-
-/* Footer */
-footer {
-    background-color: var(--secondary-color);
-    color: white;
-    text-align: center;
-    padding: 1.5rem;
-    margin-top: auto;
 }
 
 /* Responsive Design */
