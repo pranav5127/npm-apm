@@ -6,7 +6,7 @@
 
 - A SD-WAN is more flexible WAN architecture that can take advantage of multiple hardware platforms and connectivity options.
 
-- It can use a range of networking methods for branch connectivity such as <mark>Virtual Private Networks</mark> (VPNs), [MPLS](term/mpls.md), public networks etc.
+- It can use a range of networking methods for branch connectivity such as <mark>Virtual Private Networks</mark> (VPNs), [MPLS](notes/term/mpls.md), public networks etc.
 
 ## SD-WAN architecture components
 
