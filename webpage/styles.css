@@ -5,14 +5,14 @@
 }
 
 :root {
-    --primary-color: #0066cc;
-    --secondary-color: #004499;
-    --accent-color: #00a8ff;
-    --background-color: #f5f7fa;
+    --primary-color: #0052a3;
+    --secondary-color: #003d7a;
+    --accent-color: #0066cc;
+    --background-color: #f8f9fa;
     --card-background: #ffffff;
-    --text-color: #333333;
-    --text-light: #666666;
-    --border-color: #e0e0e0;
+    --text-color: #1a1a1a;
+    --text-light: #4a4a4a;
+    --border-color: #d0d0d0;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.15);
     --transition: all 0.3s ease;
@@ -21,30 +21,38 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
-        --primary-color: #4d94ff;
-        --secondary-color: #66b3ff;
-        --accent-color: #80c7ff;
-        --background-color: #1a1a1a;
-        --card-background: #2d2d2d;
-        --text-color: #e0e0e0;
-        --text-light: #b0b0b0;
-        --border-color: #404040;
-        --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-        --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.5);
+        --primary-color: #5dade2;
+        --secondary-color: #6dbce8;
+        --accent-color: #7fbaeb;
+        --background-color: #0d0d0d;
+        --card-background: #1a1a1a;
+        --text-color: #f0f0f0;
+        --text-light: #d0d0d0;
+        --border-color: #333333;
+        --shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.7);
     }
 
     .mark {
-        background-color: #4a4a1a;
-        color: #ffd700;
+        background-color: #2d2d0d;
+        color: #ffed4e;
     }
 
     .terms-table tbody tr:hover {
-        background-color: rgba(77, 148, 255, 0.1);
+        background-color: rgba(93, 173, 226, 0.15);
     }
 
     .box {
-        background-color: #333333;
-        border-left-color: #80c7ff;
+        background-color: #1a1a1a;
+        border-left-color: #7fbaeb;
+    }
+
+    .box h4 {
+        color: #7fbaeb;
+    }
+
+    .box p {
+        color: #d0d0d0;
     }
 }
 
@@ -64,7 +72,7 @@ body {
 /* Header */
 header {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    color: white;
+    color: #ffffff;
     padding: 2rem;
     text-align: center;
     box-shadow: var(--shadow);
@@ -74,12 +82,14 @@ header h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
+    color: #ffffff;
 }
 
 .subtitle {
     font-size: 1.1rem;
-    opacity: 0.95;
+    opacity: 0.98;
     font-weight: 300;
+    color: #ffffff;
 }
 
 /* Main Content */
@@ -108,7 +118,7 @@ main {
 
 .sidebar-header {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    color: white;
+    color: #ffffff;
     padding: 1.5rem;
     border-radius: 8px 8px 0 0;
 }
@@ -116,6 +126,7 @@ main {
 .sidebar-header h2 {
     font-size: 1.3rem;
     font-weight: 600;
+    color: #ffffff;
 }
 
 .term-list {
@@ -126,7 +137,7 @@ main {
 }
 
 .term-btn {
-    background-color: transparent;
+    background-color: #ffffff;
     border: 2px solid var(--border-color);
     color: var(--text-color);
     padding: 0.75rem 1rem;
@@ -140,13 +151,13 @@ main {
 
 .term-btn:hover {
     border-color: var(--primary-color);
-    background-color: rgba(0, 102, 204, 0.05);
+    background-color: #f0f5ff;
     color: var(--primary-color);
 }
 
 .term-btn.active {
     background-color: var(--primary-color);
-    color: white;
+    color: #ffffff;
     border-color: var(--primary-color);
 }
 
@@ -170,6 +181,7 @@ main {
     box-shadow: var(--shadow);
     padding: 2rem;
     overflow-y: auto;
+    color: var(--text-color);
 }
 
 .content {
@@ -202,7 +214,7 @@ main {
 
 .term-view h3 {
     font-size: 1.3rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -240,7 +252,8 @@ main {
 }
 
 .mark {
-    background-color: #fff3cd;
+    background-color: #fff8e1;
+    color: #8b6914;
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
     font-weight: 500;
@@ -256,22 +269,24 @@ main {
 
 .terms-table thead {
     background-color: var(--primary-color);
-    color: white;
+    color: #ffffff;
 }
 
 .terms-table th {
     padding: 1rem;
     text-align: left;
     font-weight: 600;
+    color: #ffffff;
 }
 
 .terms-table td {
     padding: 0.75rem 1rem;
     border-bottom: 1px solid var(--border-color);
+    color: var(--text-color);
 }
 
 .terms-table tbody tr:hover {
-    background-color: rgba(0, 102, 204, 0.05);
+    background-color: rgba(0, 82, 163, 0.05);
 }
 
 .terms-table a {
@@ -287,7 +302,7 @@ main {
 
 /* Advantage/Drawback Boxes */
 .box {
-    background-color: #f9f9f9;
+    background-color: #f5f7fa;
     border-left: 4px solid var(--accent-color);
     padding: 1rem;
     margin: 1rem 0;
@@ -298,6 +313,10 @@ main {
     color: var(--primary-color);
     font-weight: 600;
     margin-bottom: 0.5rem;
+}
+
+.box p {
+    color: var(--text-color);
 }
 
 /* Responsive Design */
