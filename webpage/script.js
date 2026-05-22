@@ -91,6 +91,119 @@ const termsData = {
             </table>
         `
     },
+    apm: {
+        title: 'Application Performance Monitoring (APM)',
+        content: `
+            <div class="term-view">
+                <h2>Application Performance Monitoring (APM)</h2>
+                
+                <h3>Overview</h3>
+                <p>APM is the practice of tracking key software application performance metrics using monitoring software and telemetry data. It provides insights into how users experience applications and where performance gaps lie.</p>
+
+                <h3>Observability vs Monitoring</h3>
+                <ul>
+                    <li><strong>APM Monitoring:</strong> Monitors application performance and system health by capturing and displaying data which can be analyzed by various teams</li>
+                    <li><strong>Observability:</strong> Checks the system's internal state based on the data generated such as logs, metrics and traces</li>
+                </ul>
+
+                <h3>Key Uses</h3>
+                <ul>
+                    <li>Continuous improvement of application performance</li>
+                    <li>Cloud resource utilization optimization</li>
+                    <li>Application security enhancement</li>
+                    <li>Discover problems before they disrupt user experience</li>
+                    <li>Determine the root cause of issues quickly</li>
+                </ul>
+
+                <h3>Core Features</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div class="box">
+                        <h4>Infrastructure Monitoring</h4>
+                        <p>Track system resources and hardware performance</p>
+                    </div>
+                    <div class="box">
+                        <h4>Network Monitoring</h4>
+                        <p>Monitor network connectivity and performance</p>
+                    </div>
+                    <div class="box">
+                        <h4>Database Monitoring</h4>
+                        <p>Track database performance and query efficiency</p>
+                    </div>
+                    <div class="box">
+                        <h4>Log Monitoring</h4>
+                        <p>Analyze application logs for errors and insights</p>
+                    </div>
+                    <div class="box">
+                        <h4>Container Monitoring</h4>
+                        <p>Monitor containerized applications and orchestration</p>
+                    </div>
+                    <div class="box">
+                        <h4>Cloud Monitoring</h4>
+                        <p>Monitor cloud resources and services</p>
+                    </div>
+                    <div class="box">
+                        <h4>Serverless Monitoring</h4>
+                        <p>Track serverless function execution and performance</p>
+                    </div>
+                    <div class="box">
+                        <h4>Synthetic Monitoring</h4>
+                        <p>Simulate user interactions to test availability</p>
+                    </div>
+                    <div class="box">
+                        <h4>End-User Monitoring</h4>
+                        <p>Track real user experience and interactions</p>
+                    </div>
+                </div>
+            </div>
+        `
+    },
+    npm: {
+        title: 'Network Performance Monitoring (NPM)',
+        content: `
+            <div class="term-view">
+                <h2>Network Performance Monitoring (NPM)</h2>
+                
+                <h3>Overview</h3>
+                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network, as experienced by users and devices.</p>
+
+                <h3>Data Sources</h3>
+                <p>NPM ingests telemetry from multiple layers of the network and IT infrastructure:</p>
+                <ul>
+                    <li><strong>Device Metrics:</strong> Information from SNMP, WMI, CLI, APIs, logs etc.</li>
+                    <li><strong>Network Flow Data:</strong> Traffic records such as NetFlow, JFlow, sFlow, IPFIX</li>
+                    <li><strong>Packet Data:</strong> Information from network packets</li>
+                    <li><strong>End Point Analysis:</strong> Performance data from end devices</li>
+                </ul>
+
+                <h3>Key Monitoring Capabilities</h3>
+                <div class="box">
+                    <h4>SNMP Monitoring</h4>
+                    <p>Uses SNMP to track device health, bandwidth, latency, and resource utilization across network infrastructure.</p>
+                </div>
+                <div class="box">
+                    <h4>Flow Data Analysis</h4>
+                    <p>Analyzes network traffic flows to understand communication patterns, bandwidth usage, and application performance.</p>
+                </div>
+                <div class="box">
+                    <h4>Full Packet Capture</h4>
+                    <p>Captures and inspects every network packet for deep troubleshooting, security analysis, and forensic investigation.</p>
+                </div>
+                <div class="box">
+                    <h4>Endpoint Packet Analysis</h4>
+                    <p>Monitors network performance directly from user devices to provide visibility into remote cloud and encrypted traffic.</p>
+                </div>
+
+                <h3>Primary Benefits</h3>
+                <ul>
+                    <li>Complete visibility into network health and performance</li>
+                    <li>Early problem detection and prevention</li>
+                    <li>Root cause analysis for network issues</li>
+                    <li>Network optimization and cost management</li>
+                    <li>Security threat detection and investigation</li>
+                </ul>
+            </div>
+        `
+    },
     sdn: {
         title: 'SDN (Software Defined Networking)',
         content: `
