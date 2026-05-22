@@ -116,44 +116,17 @@ const termsData = {
                 </ul>
 
                 <h3>Core Features</h3>
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-                    <div class="box">
-                        <h4>Infrastructure Monitoring</h4>
-                        <p>Track system resources and hardware performance</p>
-                    </div>
-                    <div class="box">
-                        <h4>Network Monitoring</h4>
-                        <p>Monitor network connectivity and performance</p>
-                    </div>
-                    <div class="box">
-                        <h4>Database Monitoring</h4>
-                        <p>Track database performance and query efficiency</p>
-                    </div>
-                    <div class="box">
-                        <h4>Log Monitoring</h4>
-                        <p>Analyze application logs for errors and insights</p>
-                    </div>
-                    <div class="box">
-                        <h4>Container Monitoring</h4>
-                        <p>Monitor containerized applications and orchestration</p>
-                    </div>
-                    <div class="box">
-                        <h4>Cloud Monitoring</h4>
-                        <p>Monitor cloud resources and services</p>
-                    </div>
-                    <div class="box">
-                        <h4>Serverless Monitoring</h4>
-                        <p>Track serverless function execution and performance</p>
-                    </div>
-                    <div class="box">
-                        <h4>Synthetic Monitoring</h4>
-                        <p>Simulate user interactions to test availability</p>
-                    </div>
-                    <div class="box">
-                        <h4>End-User Monitoring</h4>
-                        <p>Track real user experience and interactions</p>
-                    </div>
-                </div>
+                <ul>
+                    <li>Infrastructure monitoring</li>
+                    <li>Network monitoring</li>
+                    <li>Database monitoring</li>
+                    <li>Log monitoring</li>
+                    <li>Container monitoring</li>
+                    <li>Cloud monitoring</li>
+                    <li>Serverless monitoring</li>
+                    <li>Synthetic monitoring</li>
+                    <li>End-user monitoring</li>
+                </ul>
             </div>
         `
     },
@@ -192,15 +165,6 @@ const termsData = {
                     <h4>Endpoint Packet Analysis</h4>
                     <p>Monitors network performance directly from user devices to provide visibility into remote cloud and encrypted traffic.</p>
                 </div>
-
-                <h3>Primary Benefits</h3>
-                <ul>
-                    <li>Complete visibility into network health and performance</li>
-                    <li>Early problem detection and prevention</li>
-                    <li>Root cause analysis for network issues</li>
-                    <li>Network optimization and cost management</li>
-                    <li>Security threat detection and investigation</li>
-                </ul>
             </div>
         `
     },
