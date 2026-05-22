@@ -2,7 +2,7 @@
 | Acronym | Full Form | Link |
 |---|---|---|
 | MPLS | Multiprotocol Label Switching | [mpls.md](term/mpls.md)| 
-| SASE | Secure Access Service Edge | |
+| SASE | Secure Access Service Edge | [sase.md](term/mpls.md) |
 | SDN | Software Defined Networking | [sdn.md](term/sdn.md)|
 | SD-WAN | Software Defined Wide Area Network |[sdwan.md](term/sdwan.md)|
 | UCaaS | Unified Communication as a Service | |
