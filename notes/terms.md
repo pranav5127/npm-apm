@@ -8,6 +8,8 @@
 | UCaaS | Unified Communication as a Service | |
 | MTTK | Mean Time to Knowledge | |
 | MTTR | Mean Time to Resolution  | |
+| MTTD | Mean Time to Detect | |
+| MTFB | Mean Time Between Failures | |
 | WMI | Windows Management Instrumentation | |
 | SNMP | Simple Network Management Protocol | |
 | API | Application Programming Interface | |
@@ -18,7 +20,10 @@
 | VPN | Virtual Private Network| |
 | NaaS | Network as a Service| |
 | SaaS | Software as a Service| |
-|IaaS | Infrastructure as a Service| |
+| IaaS | Infrastructure as a Service| |
+| RUM | Real user monitoring | |
+
+
 
 
 
