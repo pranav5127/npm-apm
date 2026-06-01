@@ -48,6 +48,16 @@ const termsData = {
                         <td>Average time to resolve an issue</td>
                     </tr>
                     <tr>
+                        <td><strong>MTTD</strong></td>
+                        <td>Mean Time to Detect</td>
+                        <td>Average time to detect an issue</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MTFB</strong></td>
+                        <td>Mean Time Between Failures</td>
+                        <td>Average time between system failures</td>
+                    </tr>
+                    <tr>
                         <td><strong>WMI</strong></td>
                         <td>Windows Management Instrumentation</td>
                         <td>Windows system management infrastructure</td>
@@ -86,6 +96,26 @@ const termsData = {
                         <td><strong>VPN</strong></td>
                         <td>Virtual Private Network</td>
                         <td>Encrypted network connection for secure data transmission</td>
+                    </tr>
+                    <tr>
+                        <td><strong>NaaS</strong></td>
+                        <td>Network as a Service</td>
+                        <td>Cloud-based network services</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SaaS</strong></td>
+                        <td>Software as a Service</td>
+                        <td>Cloud-based software applications</td>
+                    </tr>
+                    <tr>
+                        <td><strong>IaaS</strong></td>
+                        <td>Infrastructure as a Service</td>
+                        <td>Cloud-based infrastructure resources</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RUM</strong></td>
+                        <td>Real User Monitoring</td>
+                        <td>Monitoring actual user experience and interactions</td>
                     </tr>
                 </tbody>
             </table>
@@ -137,7 +167,7 @@ const termsData = {
                 <h2>Network Performance Monitoring (NPM)</h2>
                 
                 <h3>Overview</h3>
-                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network, as experienced by users and devices.</p>
+                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network, as experienced by users and applications.</p>
 
                 <h3>Data Sources</h3>
                 <p>NPM ingests telemetry from multiple layers of the network and IT infrastructure:</p>
@@ -165,6 +195,111 @@ const termsData = {
                     <h4>Endpoint Packet Analysis</h4>
                     <p>Monitors network performance directly from user devices to provide visibility into remote cloud and encrypted traffic.</p>
                 </div>
+            </div>
+        `
+    },
+    observability: {
+        title: 'Observability',
+        content: `
+            <div class="term-view">
+                <h2>Observability</h2>
+                
+                <h3>Overview</h3>
+                <p>Observability is the ability to understand a system's internal state by analyzing the telemetry it produces such as <strong>MELT data</strong>. Observability is often shortened to o11y, where 11 represents the letters between the first "o" and last "y." It originates in control theory, where scientists inferred internal system behavior using external signals.</p>
+
+                <h3>Evolution of Monitoring</h3>
+                <ul>
+                    <li><strong>1990s:</strong> Siloed Monitoring</li>
+                    <li><strong>2000s:</strong> Application Performance Monitoring (APM)</li>
+                    <li><strong>2010s:</strong> Cloud-Native Complexity</li>
+                    <li><strong>Now:</strong> AI-Assisted Observability</li>
+                </ul>
+
+                <h3>Key Practices and Tools</h3>
+                <ul>
+                    <li>Monitor system performance end-to-end</li>
+                    <li>Debug applications and infrastructure efficiently</li>
+                    <li>Detect anomalies before they cause downtime</li>
+                    <li>Align reliability with CI/CD pipeline processes</li>
+                </ul>
+
+                <h3>MELT - Four Core Signals</h3>
+                <div class="box">
+                    <h4>Logs</h4>
+                    <p>Timestamped records of individual events inside an application. Can be plain text (unstructured), JSON (structured), or binary (used for replication and journaling).</p>
+                </div>
+                <div class="box">
+                    <h4>Metrics</h4>
+                    <p>Numerical values describing service or component behavior over time. They provide a broad overview of system health and performance of infrastructure.</p>
+                </div>
+                <div class="box">
+                    <h4>Traces</h4>
+                    <p>Follow a request's full journey through a distributed system, recording every service interaction from start to finish. Helps in identifying the service causing issues.</p>
+                </div>
+                <div class="box">
+                    <h4>Continuous Profiling</h4>
+                    <p>Provides real-time visibility into CPU usage, memory allocation, and code-level performance.</p>
+                </div>
+
+                <h3>Unified Observability</h3>
+                <p>Unified Observability consolidates all four signals (MELT) into a single platform. It improves MTTD (Mean Time to Detect) and MTTR (Mean Time to Resolution).</p>
+
+                <h3>Observability vs Monitoring</h3>
+                <table class="terms-table">
+                    <thead>
+                        <tr>
+                            <th>Aspect</th>
+                            <th>Monitoring</th>
+                            <th>Observability</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Primary Question</strong></td>
+                            <td>What is broken?</td>
+                            <td>Why is it broken?</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Predefined Alerts</strong></td>
+                            <td>Required</td>
+                            <td>Not required</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Unknown Failures</strong></td>
+                            <td>Cannot handle</td>
+                            <td>Can handle</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Distributed Systems</strong></td>
+                            <td>Partially suited</td>
+                            <td>Fully suited</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Root Cause Analysis</strong></td>
+                            <td>Limited</td>
+                            <td>Deep and correlated</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Core Signals</strong></td>
+                            <td>Metrics, uptime</td>
+                            <td>Logs, metrics, traces, profiles</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Approach</strong></td>
+                            <td>Detect and react</td>
+                            <td>Predict and prevent</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Key Benefits</h3>
+                <ul>
+                    <li>Faster incident detection and resolution</li>
+                    <li>Improved system reliability and uptime</li>
+                    <li>Higher developer productivity</li>
+                    <li>Lower cloud and monitoring costs</li>
+                    <li>Stronger security visibility</li>
+                </ul>
             </div>
         `
     },
