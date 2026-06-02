@@ -47,3 +47,10 @@
 - **Correlate signals:** Link infrastructure metrics with application data for faster root-cause analysis.
 
 
+## How to Implement Infrastructure Monitoring Effectively
+
+- **Identify Critical Systems**: Focus on services and dependencies that impact availability and user experience.
+- **Track Key Metrics**: Monitor latency, traffic, errors, and resource utilization.
+- **Collect Telemetry Consistently**: Standardize metrics, logs, and traces across all environments.
+- **Set Smart Alerts**: Use dynamic thresholds to reduce noise and highlight real issues.
+- **Review and Improve Regularly**: Update monitoring as infrastructure grows and changes.
