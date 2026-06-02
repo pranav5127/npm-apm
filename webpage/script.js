@@ -250,6 +250,80 @@ const termsData = {
             </div>
         `
     },
+    infrastructure: {
+        title: 'Infrastructure Monitoring',
+        content: `
+            <div class="term-view">
+                <h2>Infrastructure Monitoring</h2>
+                
+                <h3>Overview</h3>
+                <p>Infrastructure Monitoring is the process of collecting, analyzing and correlating telemetry data across infrastructure components.</p>
+                <p>It helps <strong>detect anomalies early</strong> and <strong>minimize production risk</strong>.</p>
+                <p>It focuses primarily on foundational infrastructure layers such as <strong>compute, memory, storage, networking and orchestration</strong>.</p>
+                <p>Autoscaling dynamically adjusts infrastructure capacity based on demand, but improper thresholds or unexpected traffic spikes can still degrade performance. Monitoring ensures that scaling policies work effectively.</p>
+
+                <h3>Types of Infrastructure Monitoring</h3>
+                <ul>
+                    <li>Agentless Infrastructure Monitoring</li>
+                    <li>Agent-based Monitoring</li>
+                </ul>
+
+                <h3>How It Works</h3>
+                <p>Infrastructure monitoring captures telemetry across compute resources, networks, containers, and orchestration layers to provide insights. By analyzing these insights in real time, teams can quickly detect abnormal behavior and prevent service disruptions.</p>
+                <p>Most monitoring strategies collect data through lightweight agents or agentless integrations. They collect host and service level data.</p>
+                <p>Once deployed, monitoring systems continuously:</p>
+                <ul>
+                    <li>Visualize historical trends alongside live system states</li>
+                    <li>Detect anomalies and performance degradation</li>
+                    <li>Trigger alerts when thresholds are breached</li>
+                    <li>Surface dependency issues across services</li>
+                </ul>
+
+                <h3>Key Benefits</h3>
+                <ul>
+                    <li><strong>Early Issue Detection:</strong> Identify problems before they impact users</li>
+                    <li><strong>Higher System Reliability:</strong> Maintain consistent uptime and performance</li>
+                    <li><strong>Optimized Resource Utilization:</strong> Efficiently allocate and use infrastructure</li>
+                    <li><strong>Safer Deployment and Testing:</strong> Monitor during deployment processes</li>
+                    <li><strong>Enhanced Security Visibility:</strong> Detect suspicious infrastructure activity</li>
+                    <li><strong>Increased ROI for IT Operations:</strong> Make better resource decisions</li>
+                </ul>
+
+                <h3>Best Practices</h3>
+                <div class="box">
+                    <h4>Automate Workflows</h4>
+                    <p>Automate telemetry and incident response to speed up recovery times.</p>
+                </div>
+                <div class="box">
+                    <h4>Ensure Full Coverage</h4>
+                    <p>Deploy agents environment-wide to eliminate monitoring blind spots.</p>
+                </div>
+                <div class="box">
+                    <h4>Tune Alerts</h4>
+                    <p>Optimize alert thresholds to reduce noise and preserve high-signal detection.</p>
+                </div>
+                <div class="box">
+                    <h4>Build Custom Dashboards</h4>
+                    <p>Design role-specific views for quick, at-a-glance system health checks.</p>
+                </div>
+                <div class="box">
+                    <h4>Validate Continuously</h4>
+                    <p>Test monitoring tools during deployments to ensure telemetry accuracy.</p>
+                </div>
+                <div class="box">
+                    <h4>Correlate Signals</h4>
+                    <p>Link infrastructure metrics with application data for faster root-cause analysis.</p>
+                </div>
+
+                <h3>Implementation Strategy</h3>
+                <p><strong>Identify Critical Systems:</strong> Focus on services and dependencies that impact availability and user experience.</p>
+                <p><strong>Track Key Metrics:</strong> Monitor latency, traffic, errors, and resource utilization.</p>
+                <p><strong>Collect Telemetry Consistently:</strong> Standardize metrics, logs, and traces across all environments.</p>
+                <p><strong>Set Smart Alerts:</strong> Use dynamic thresholds to reduce noise and highlight real issues.</p>
+                <p><strong>Review and Improve Regularly:</strong> Update monitoring as infrastructure grows and changes.</p>
+            </div>
+        `
+    },
     observability: {
         title: 'Observability',
         content: `
@@ -257,7 +331,8 @@ const termsData = {
                 <h2>Observability</h2>
                 
                 <h3>Overview</h3>
-                <p>Observability is the ability to understand a system's internal state by analyzing the telemetry it produces such as <strong>MELT data</strong>. Observability is often shortened to o11y, where 11 represents the letters between the first "o" and last "y."</p>
+                <p>Observability is the ability to understand a system's internal state by analyzing the telemetry it produces such as <strong>MELT data</strong>.</p>
+                <p>Observability is often shortened to <strong>o11y</strong>, where 11 represents the letters between the first "o" and last "y."</p>
                 <p>Observability originates in control theory, where scientists inferred internal system behavior using external signals.</p>
 
                 <h3>Evolution of Monitoring</h3>
