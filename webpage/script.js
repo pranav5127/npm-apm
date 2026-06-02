@@ -129,6 +129,8 @@ const termsData = {
                 
                 <h3>Overview</h3>
                 <p>APM is the practice of tracking key software application performance metrics using monitoring software and telemetry data. It provides insights into how users experience applications and where performance gaps lie.</p>
+                <p>APM enables <strong>real-time monitoring</strong> of applications, capturing telemetry data and metrics such as response time, latency, resource usage, and error rates.</p>
+                <p>APM tools help in <strong>issue diagnosis and troubleshooting</strong> by providing visibility into application components, dependencies and transactions.</p>
 
                 <h3>Observability vs Monitoring</h3>
                 <ul>
@@ -157,6 +159,56 @@ const termsData = {
                     <li>Synthetic monitoring</li>
                     <li>End-user monitoring</li>
                 </ul>
+
+                <h3>APM Use Cases</h3>
+                
+                <div class="box">
+                    <h4>Runtime Application Architecture</h4>
+                    <p>Provides a comprehensive understanding of an application's structure and how its various components interact with each other. Offers visibility for application stack such as servers, databases, APIs, third-party services, etc.</p>
+                </div>
+                
+                <div class="box">
+                    <h4>Real User Monitoring (RUM)</h4>
+                    <p>Focuses on capturing and analyzing user interactions with applications in real-time. Provides insights into user experience by measuring factors like page load times, transaction duration, and overall performance from the end-user's perspective.</p>
+                </div>
+                
+                <div class="box">
+                    <h4>Synthetic Monitoring</h4>
+                    <p>Involves creating simulated user interactions with an application. These interactions replicate real user behavior and are used proactively to test and monitor the application's performance.</p>
+                </div>
+                
+                <div class="box">
+                    <h4>Agentless Monitoring</h4>
+                    <p>Gathers performance data without the need for installing agents or modifying application code.</p>
+                </div>
+                
+                <div class="box">
+                    <h4>Component Monitoring</h4>
+                    <p>Focuses on tracking individual components and services of an application. Involves monitoring the performance, health and availability of each component.</p>
+                </div>
+
+                <h3>Importance of APM</h3>
+                <p>APM helps organizations proactively identify and address performance bottlenecks, improve user experience, increase efficiency and ultimately drive business success:</p>
+                <ul>
+                    <li><strong>Proactive Issue Detection:</strong> Identify problems before they impact users</li>
+                    <li><strong>Enhanced User Experience:</strong> Monitor and optimize user-facing performance</li>
+                    <li><strong>Prevention of Revenue Loss:</strong> Minimize downtime and performance issues</li>
+                    <li><strong>Efficient Troubleshooting:</strong> Quickly identify root causes of issues</li>
+                    <li><strong>Resource Optimization:</strong> Allocate resources efficiently based on performance data</li>
+                    <li><strong>Improved Compliance and Security:</strong> Meet regulatory requirements and security standards</li>
+                </ul>
+
+                <h3>Key Metrics of APM</h3>
+                <ul>
+                    <li><strong>Response Time:</strong> The duration an application takes to respond to a user's action</li>
+                    <li><strong>Error Rate:</strong> The occurrence frequency of errors within the application</li>
+                    <li><strong>Request Rate:</strong> The volume of requests an application receives per unit of time</li>
+                    <li><strong>Application Availability (Uptime):</strong> The total operational time during which the application is accessible</li>
+                    <li><strong>CPU Usage:</strong> The amount of processing power consumed by the application</li>
+                    <li><strong>Latency:</strong> The delay in data transmission between a source and destination, measuring the time taken for a user's request to reach the server and return a response</li>
+                    <li><strong>Application Performance Index (Apdex) Score:</strong> A measurement of the app's performance relative to predefined "normal" performance standards</li>
+                    <li><strong>Service Level Agreement (SLA) Score:</strong> A metric defining the expected service quality, calculated using response time, error rate, uptime, and request volume over a specific period</li>
+                </ul>
             </div>
         `
     },
@@ -167,7 +219,7 @@ const termsData = {
                 <h2>Network Performance Monitoring (NPM)</h2>
                 
                 <h3>Overview</h3>
-                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network, as experienced by users and applications.</p>
+                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network, as experienced by your users.</p>
 
                 <h3>Data Sources</h3>
                 <p>NPM ingests telemetry from multiple layers of the network and IT infrastructure:</p>
@@ -205,7 +257,8 @@ const termsData = {
                 <h2>Observability</h2>
                 
                 <h3>Overview</h3>
-                <p>Observability is the ability to understand a system's internal state by analyzing the telemetry it produces such as <strong>MELT data</strong>. Observability is often shortened to o11y, where 11 represents the letters between the first "o" and last "y." It originates in control theory, where scientists inferred internal system behavior using external signals.</p>
+                <p>Observability is the ability to understand a system's internal state by analyzing the telemetry it produces such as <strong>MELT data</strong>. Observability is often shortened to o11y, where 11 represents the letters between the first "o" and last "y."</p>
+                <p>Observability originates in control theory, where scientists inferred internal system behavior using external signals.</p>
 
                 <h3>Evolution of Monitoring</h3>
                 <ul>
