@@ -20,12 +20,12 @@ const termsData = {
                     <tr>
                         <td><strong>SASE</strong></td>
                         <td>Secure Access Service Edge</td>
-                        <td>Cloud-based security architecture</td>
+                        <td>Cloud-based security architecture unifying network connectivity with security functions</td>
                     </tr>
                     <tr>
                         <td><strong>SDN</strong></td>
                         <td>Software Defined Networking</td>
-                        <td>Technologies that use software to manage networks</td>
+                        <td>Technologies that use software to manage networks with separated control and data planes</td>
                     </tr>
                     <tr>
                         <td><strong>SD-WAN</strong></td>
@@ -219,7 +219,7 @@ const termsData = {
                 <h2>Network Performance Monitoring (NPM)</h2>
                 
                 <h3>Overview</h3>
-                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network infrastructure and services.</p>
+                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network infrastructure as experienced by users.</p>
 
                 <h3>Data Sources</h3>
                 <p>NPM ingests telemetry from multiple layers of the network and IT infrastructure:</p>
@@ -431,6 +431,138 @@ const termsData = {
             </div>
         `
     },
+    architecture: {
+        title: 'Application Architecture',
+        content: `
+            <div class="term-view">
+                <h2>Application Architecture</h2>
+                
+                <h3>Overview</h3>
+                <p>An application architecture describes the patterns and techniques used to design and build an application. It serves as a starting point or roadmap for building an application and describes both the front end and backend of application services.</p>
+
+                <h3>Types of Application Architectures</h3>
+                <ul>
+                    <li>Monoliths</li>
+                    <li>N-Tier</li>
+                    <li>Microservices</li>
+                    <li>Event Driven</li>
+                    <li>Service-oriented</li>
+                </ul>
+
+                <h3>Monoliths Architecture</h3>
+                <p>A monolithic architecture is a traditional single tier application design where an application is written as a single unit of code with all components sharing the same resources and memory space. All functionalities are contained within a single large application stack.</p>
+                
+                <div class="box">
+                    <h4>Key Characteristics</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Tight Coupling</li>
+                        <li>Single Deployment Unit</li>
+                        <li>Simplicity and Speed</li>
+                    </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Challenges</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Difficult Scaling</li>
+                        <li>System Vulnerability</li>
+                        <li>Limited Flexibility</li>
+                    </ul>
+                </div>
+
+                <h3>N-Tier Architecture</h3>
+                <p>N-tier architecture (also known as multitier or layered architecture) is a traditional client-server software design pattern where various components are separated into distinct layers or "tiers". It is widely used for smaller, simpler applications.</p>
+                
+                <div class="box">
+                    <h4>Key Characteristics</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Layer Communication</li>
+                        <li>Independent Upgrades</li>
+                    </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Layers</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Presentation Layer</li>
+                        <li>Application Layer</li>
+                        <li>Data Layer</li>
+                    </ul>
+                </div>
+
+                <h3>Microservices Architecture</h3>
+                <p>A modern software design approach where an application is broken down into its smallest components, forming a collection of small, independent and loosely coupled services. Each microservice is designed to perform one specific business function and acts as its own mini-application.</p>
+                
+                <div class="box">
+                    <h4>Key Characteristics</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Independent Development and Deployment</li>
+                        <li>Network based Communication</li>
+                        <li>Technology Flexibility</li>
+                        <li>Data Autonomy</li>
+                    </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Benefits</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Dynamic Scalability</li>
+                        <li>Fault Tolerance</li>
+                        <li>Faster Delivery</li>
+                    </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Challenges</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Complexity</li>
+                        <li>Higher Latency</li>
+                    </ul>
+                </div>
+
+                <h3>Event-driven Architecture</h3>
+                <p>A system design where the core structure revolves around the capture, communication, processing and persistence of "events". An <strong>event</strong> is defined as any significant occurrence or change in state within system hardware or software.</p>
+                
+                <div class="box">
+                    <h4>Key Characteristics</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>High Decoupling</li>
+                        <li>Asynchronous Communication</li>
+                        <li>Real-Time, Event Driven Flow</li>
+                        <li>Immutability and Event logs</li>
+                    </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Components</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Event Producer</li>
+                        <li>Event Consumer</li>
+                    </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Models</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Publish / Subscribe</li>
+                        <li>Event streaming</li>
+                    </ul>
+                </div>
+
+                <h3>Service Oriented Architecture</h3>
+                <p>Structures an application into discrete, reusable services. It is very similar to microservices architecture.</p>
+                
+                <div class="box">
+                    <h4>Key Characteristics</h4>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Enterprise Service Bus (ESB)</li>
+                        <li>Communication Protocols</li>
+                        <li>Front-End Integration</li>
+                    </ul>
+                </div>
+            </div>
+        `
+    },
     sdn: {
         title: 'SDN (Software Defined Networking)',
         content: `
@@ -458,15 +590,11 @@ const termsData = {
 
                 <h3>Primary Uses</h3>
                 <ul>
-                    <li><strong>Large Data Centers:</strong> SDNs are widely used to manage complex network infrastructure</li>
-                    <li><strong>Data Center Management:</strong> Simplifies network management by controlling networks through software</li>
-                    <li><strong>Hybrid Cloud Integration:</strong> Helps connect on-premise infrastructure with cloud infrastructure</li>
+                    <li><strong>Large Data Centers:</strong> SDNs are widely used in large data centers</li>
+                    <li><strong>Data Center Management:</strong> Data centers contain servers and networking equipment for storing, processing, and exchanging data. SDN simplifies network management by controlling networks through software</li>
+                    <li><strong>Hybrid Cloud Integration:</strong> SDN helps connect on-premise infrastructure with cloud infrastructure in hybrid cloud setups</li>
                     <li><strong>Cloud Integration Benefits:</strong> Software-based integration is easier and avoids hardware compatibility issues</li>
-                </ul>
-
-                <h3>Vendor Support</h3>
-                <ul>
-                    <li>Many vendors provide both cloud services and SDN solutions for simpler hybrid cloud integration</li>
+                    <li><strong>Vendor Support:</strong> Many vendors provide both cloud services and SDN solutions for simpler hybrid cloud integration</li>
                 </ul>
 
                 <div class="box">
@@ -536,25 +664,18 @@ const termsData = {
                 <ul>
                     <li>MPLS is a <strong>technique for setting up long-range network connections</strong></li>
                     <li>MPLS forwards packets along <strong>pre-established label-switched paths (LSPs)</strong></li>
-                    <li>Forwarding decisions are based on <strong>labels instead of full IP routing lookups</strong> at every hop</li>
-                    <li>This approach allows packets to follow a <strong>consistent path</strong> across the network</li>
-                </ul>
-
-                <h3>OSI Layer Classification</h3>
-                <ul>
-                    <li>MPLS is considered to operate at <span class="mark">OSI layer 2.5</span></li>
-                    <li>Positioned <strong>below the network layer (layer 3)</strong></li>
-                    <li>Positioned <strong>above the data link layer (layer 2)</strong></li>
+                    <li>Because forwarding decisions are based on <strong>labels instead of full IP routing lookups</strong> at every hop, packets can follow a <strong>consistent path</strong> across the network</li>
+                    <li>MPLS is considered to operate at <span class="mark">OSI layer 2.5</span>, below the network layer (layer 3) and above the data link layer (layer 2)</li>
                 </ul>
 
                 <h3>Key Concepts</h3>
                 <div class="box">
                     <h4>Forwarding Equivalence Class (FEC)</h4>
-                    <p>In MPLS, each packet is assigned to a class called a <strong>forwarding equivalence class</strong> (FEC)</p>
+                    <p>In MPLS each packet is assigned to a class called a <strong>forwarding equivalence class</strong> (FEC)</p>
                 </div>
                 <div class="box">
                     <h4>Label-Switched Paths (LSP)</h4>
-                    <p>The network paths that packets can take are called <strong>label-switched paths (LSP)</strong></p>
+                    <p>The network paths that packets can take are called <strong>label-switched paths</strong> (LSP)</p>
                 </div>
                 <div class="box">
                     <h4>Path Selection</h4>
@@ -564,8 +685,7 @@ const termsData = {
                 <h3>How MPLS Works</h3>
                 <ul>
                     <li>Each packet carries <strong>one or more MPLS labels</strong> in an MPLS header</li>
-                    <li>Routers forward packets based on these <strong>labels instead of checking the IP header</strong></li>
-                    <li>This mechanism directs packets along the correct Label Switched Path</li>
+                    <li>Routers forward packets based on these <strong>labels instead of checking the IP header</strong>, directing them along the correct Label Switched Path</li>
                     <li><strong>Important:</strong> MPLS does <strong>not encrypt traffic</strong> by default</li>
                 </ul>
 
@@ -593,14 +713,51 @@ const termsData = {
 
                 <h3>Primary Usage</h3>
                 <ul>
-                    <li><strong>Wide Area Networks (WANs) for Branch Networking:</strong> Used to connect various branch locations to a central HQ or data center</li>
-                    <li><strong>Distributed Infrastructure:</strong> Allows spread-out branch offices, restaurants, or campuses to exchange information</li>
+                    <li><strong>Wide Area Networks (WANs) for Branch Networking:</strong> Used to set up WANs connecting various branch locations to a central HQ or data center</li>
+                    <li><strong>Distributed Infrastructure:</strong> Branch networks built with MPLS allow spread-out branch offices, restaurants, or campuses to exchange information</li>
                     <li><strong>Application Access:</strong> Enables branch networks to access centralized applications reliably</li>
                 </ul>
 
                 <div class="box">
                     <h4>Learn More</h4>
                     <p><a href="https://www.cloudflare.com/learning/network-layer/what-is-mpls/" target="_blank">Cloudflare: What is MPLS?</a></p>
+                </div>
+            </div>
+        `
+    },
+    sase: {
+        title: 'SASE (Secure Access Service Edge)',
+        content: `
+            <div class="term-view">
+                <h2>SASE (Secure Access Service Edge)</h2>
+                
+                <h3>Overview</h3>
+                <p>SASE is an architectural model that unifies network connectivity with network security functions onto a single cloud-based platform.</p>
+                <ul>
+                    <li>It places network controls on the cloud edge instead of the data centers</li>
+                    <li>It lets enterprises provide simpler, secure and consistent access from any user to any application</li>
+                    <li>It uses technologies like <strong>Zero Trust security</strong> and the <strong>principle of least privilege</strong></li>
+                </ul>
+
+                <h3>Why SASE is Important</h3>
+                <p>SASE is more effective than traditional IT security at connecting and protecting networks. It provides secure, fast, and reliable connectivity for:</p>
+                <ul>
+                    <li>A workforce (remote workers, employees)</li>
+                    <li>A workplace (branch offices, headquarters)</li>
+                    <li>Workloads (applications, services, data)</li>
+                </ul>
+
+                <h3>Key Benefits</h3>
+                <p>Instead of solely building out and operating their own modern networks, organizations can rely on globally distributed cloud-native services to simplify managing security and connectivity.</p>
+                <ul>
+                    <li><strong>Reduced Cyber Risk:</strong> Enhanced security posture against threats</li>
+                    <li><strong>Reduced Costs:</strong> Consolidate security and network functions</li>
+                    <li><strong>Reduced Complexity:</strong> Simplified management through unified platform</li>
+                </ul>
+
+                <div class="box">
+                    <h4>Learn More</h4>
+                    <p><a href="https://www.cloudflare.com/learning/access-management/what-is-sase/" target="_blank">Cloudflare: What is SASE?</a></p>
                 </div>
             </div>
         `
