@@ -164,7 +164,7 @@ const termsData = {
                 
                 <div class="box">
                     <h4>Runtime Application Architecture</h4>
-                    <p>Provides a comprehensive understanding of an application's structure and how its various components interact with each other. Offers visibility for application stack such as servers, databases, APIs, third-party services, etc.</p>
+                    <p>Provides a comprehensive understanding of an application's structure and how its various components interact with each other. Offers visibility for application stack such as servers, databases, APIs, and third-party services.</p>
                 </div>
                 
                 <div class="box">
@@ -219,7 +219,7 @@ const termsData = {
                 <h2>Network Performance Monitoring (NPM)</h2>
                 
                 <h3>Overview</h3>
-                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network, as experienced by your users.</p>
+                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network infrastructure and services.</p>
 
                 <h3>Data Sources</h3>
                 <p>NPM ingests telemetry from multiple layers of the network and IT infrastructure:</p>
@@ -260,7 +260,7 @@ const termsData = {
                 <p>Infrastructure Monitoring is the process of collecting, analyzing and correlating telemetry data across infrastructure components.</p>
                 <p>It helps <strong>detect anomalies early</strong> and <strong>minimize production risk</strong>.</p>
                 <p>It focuses primarily on foundational infrastructure layers such as <strong>compute, memory, storage, networking and orchestration</strong>.</p>
-                <p>Autoscaling dynamically adjusts infrastructure capacity based on demand, but improper thresholds or unexpected traffic spikes can still degrade performance. Monitoring ensures that scaling policies work effectively.</p>
+                <p>Autoscaling dynamically adjusts infrastructure capacity based on demand, but improper thresholds or unexpected traffic spikes can still degrade performance. Monitoring ensures that scaling policies are effective.</p>
 
                 <h3>Types of Infrastructure Monitoring</h3>
                 <ul>
