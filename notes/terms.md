@@ -22,6 +22,9 @@
 | SaaS | Software as a Service| |
 | IaaS | Infrastructure as a Service| |
 | RUM | Real user monitoring | |
+| TCP  | Transmission Control Protocol | |
+| SACK | Selective Acknowledgment| |
+| UDP | User Datagram Protocol| |
 
 
 
