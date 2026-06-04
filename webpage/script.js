@@ -65,7 +65,7 @@ const termsData = {
                     <tr>
                         <td><strong>SNMP</strong></td>
                         <td>Simple Network Management Protocol</td>
-                        <td>Protocol for managing network devices</td>
+                        <td>Protocol for managing network devices and monitoring device health</td>
                     </tr>
                     <tr>
                         <td><strong>API</strong></td>
@@ -128,7 +128,8 @@ const termsData = {
                 <h2>Application Performance Monitoring (APM)</h2>
                 
                 <h3>Overview</h3>
-                <p>APM is the practice of tracking key software application performance metrics using monitoring software and telemetry data. It provides insights into how users experience applications and where performance gaps lie.</p>
+                <p>APM is the practice of tracking key software application performance metrics using monitoring software and telemetry data.</p>
+                <p>It provides insights into how users experience applications and where performance gaps lie.</p>
                 <p>APM enables <strong>real-time monitoring</strong> of applications, capturing telemetry data and metrics such as response time, latency, resource usage, and error rates.</p>
                 <p>APM tools help in <strong>issue diagnosis and troubleshooting</strong> by providing visibility into application components, dependencies and transactions.</p>
 
@@ -164,17 +165,20 @@ const termsData = {
                 
                 <div class="box">
                     <h4>Runtime Application Architecture</h4>
-                    <p>Provides a comprehensive understanding of an application's structure and how its various components interact with each other. Offers visibility for application stack such as servers, databases, APIs, and third-party services.</p>
+                    <p>Provides a comprehensive understanding of an application's structure and how its various components interact with each other.</p>
+                    <p>Offers visibility for application stack such as servers, databases, APIs and third-party services.</p>
                 </div>
                 
                 <div class="box">
                     <h4>Real User Monitoring (RUM)</h4>
-                    <p>Focuses on capturing and analyzing user interactions with applications in real-time. Provides insights into user experience by measuring factors like page load times, transaction duration, and overall performance from the end-user's perspective.</p>
+                    <p>Focuses on capturing and analyzing user interactions with applications in real-time.</p>
+                    <p>Provides insights into user experience by measuring factors like page load times, transaction duration, and overall performance from the end-user's perspective.</p>
                 </div>
                 
                 <div class="box">
                     <h4>Synthetic Monitoring</h4>
-                    <p>Involves creating simulated user interactions with an application. These interactions replicate real user behavior and are used proactively to test and monitor the application's performance.</p>
+                    <p>Involves creating simulated user interactions with an application.</p>
+                    <p>These interactions replicate real user behavior and are used proactively to test and monitor the application's performance.</p>
                 </div>
                 
                 <div class="box">
@@ -184,7 +188,8 @@ const termsData = {
                 
                 <div class="box">
                     <h4>Component Monitoring</h4>
-                    <p>Focuses on tracking individual components and services of an application. Involves monitoring the performance, health and availability of each component.</p>
+                    <p>Focuses on tracking individual components and services of an application.</p>
+                    <p>Involves monitoring the performance, health and availability of each component.</p>
                 </div>
 
                 <h3>Importance of APM</h3>
@@ -219,7 +224,7 @@ const termsData = {
                 <h2>Network Performance Monitoring (NPM)</h2>
                 
                 <h3>Overview</h3>
-                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network infrastructure as experienced by users.</p>
+                <p>Network Performance Monitoring (NPM) is the practice of visualizing, monitoring, optimizing, troubleshooting, and reporting on the health, availability, and performance of your network, as experienced by your users.</p>
 
                 <h3>Data Sources</h3>
                 <p>NPM ingests telemetry from multiple layers of the network and IT infrastructure:</p>
@@ -260,7 +265,7 @@ const termsData = {
                 <p>Infrastructure Monitoring is the process of collecting, analyzing and correlating telemetry data across infrastructure components.</p>
                 <p>It helps <strong>detect anomalies early</strong> and <strong>minimize production risk</strong>.</p>
                 <p>It focuses primarily on foundational infrastructure layers such as <strong>compute, memory, storage, networking and orchestration</strong>.</p>
-                <p>Autoscaling dynamically adjusts infrastructure capacity based on demand, but improper thresholds or unexpected traffic spikes can still degrade performance. Monitoring ensures that scaling policies are effective.</p>
+                <p>Autoscaling dynamically adjusts infrastructure capacity based on demand, but improper thresholds or unexpected traffic spikes can still degrade performance. Monitoring ensures that scaling policies trigger at the right time and verifies that newly provisioned resources function correctly.</p>
 
                 <h3>Types of Infrastructure Monitoring</h3>
                 <ul>
@@ -269,7 +274,8 @@ const termsData = {
                 </ul>
 
                 <h3>How It Works</h3>
-                <p>Infrastructure monitoring captures telemetry across compute resources, networks, containers, and orchestration layers to provide insights. By analyzing these insights in real time, teams can quickly detect abnormal behavior and prevent service disruptions.</p>
+                <p>Infrastructure monitoring captures telemetry across compute resources, networks, containers, and orchestration layers to provide insights.</p>
+                <p>By analyzing these insights in real time, teams can quickly detect abnormal behavior and prevent service disruptions.</p>
                 <p>Most monitoring strategies collect data through lightweight agents or agentless integrations. They collect host and service level data.</p>
                 <p>Once deployed, monitoring systems continuously:</p>
                 <ul>
@@ -354,15 +360,18 @@ const termsData = {
                 <h3>MELT - Four Core Signals</h3>
                 <div class="box">
                     <h4>Logs</h4>
-                    <p>Timestamped records of individual events inside an application. Can be plain text (unstructured), JSON (structured), or binary (used for replication and journaling).</p>
+                    <p>Timestamped records of individual events inside an application.</p>
+                    <p><strong>Types:</strong> Plain text (unstructured), JSON (structured), or binary (used for replication and journaling)</p>
                 </div>
                 <div class="box">
                     <h4>Metrics</h4>
-                    <p>Numerical values describing service or component behavior over time. They provide a broad overview of system health and performance of infrastructure.</p>
+                    <p>Numerical values describing service or component behavior over time.</p>
+                    <p>They provide a broad overview of system health and performance of infrastructure.</p>
                 </div>
                 <div class="box">
                     <h4>Traces</h4>
-                    <p>Follow a request's full journey through a distributed system, recording every service interaction from start to finish. Helps in identifying the service causing issues.</p>
+                    <p>Follow a request's full journey through a distributed system, recording every service interaction from start to finish.</p>
+                    <p>It helps in identifying the service causing issues.</p>
                 </div>
                 <div class="box">
                     <h4>Continuous Profiling</h4>
@@ -370,7 +379,8 @@ const termsData = {
                 </div>
 
                 <h3>Unified Observability</h3>
-                <p>Unified Observability consolidates all four signals (MELT) into a single platform. It improves MTTD (Mean Time to Detect) and MTTR (Mean Time to Resolution).</p>
+                <p>Unified Observability consolidates all four signals (MELT) into a single platform.</p>
+                <p>It improves MTTD (Mean Time to Detect) and MTTR (Mean Time to Resolution).</p>
 
                 <h3>Observability vs Monitoring</h3>
                 <table class="terms-table">
@@ -438,7 +448,9 @@ const termsData = {
                 <h2>Application Architecture</h2>
                 
                 <h3>Overview</h3>
-                <p>An application architecture describes the patterns and techniques used to design and build an application. It serves as a starting point or roadmap for building an application and describes both the front end and backend of application services.</p>
+                <p>An application architecture describes the patterns and techniques used to design and build an application.</p>
+                <p>The architecture is a starting point or roadmap for building an application.</p>
+                <p>The architecture describes both the front end and backend of an application services.</p>
 
                 <h3>Types of Application Architectures</h3>
                 <ul>
@@ -450,7 +462,9 @@ const termsData = {
                 </ul>
 
                 <h3>Monoliths Architecture</h3>
-                <p>A monolithic architecture is a traditional single tier application design where an application is written as a single unit of code with all components sharing the same resources and memory space. All functionalities are contained within a single large application stack.</p>
+                <p>A monolithic architecture is a traditional single tier application design.</p>
+                <p>In a monolith, an application is written as a single unit of code where all components share the same resources and memory space.</p>
+                <p>All functionalities are contained within a single large application stack.</p>
                 
                 <div class="box">
                     <h4>Key Characteristics</h4>
@@ -471,7 +485,9 @@ const termsData = {
                 </div>
 
                 <h3>N-Tier Architecture</h3>
-                <p>N-tier architecture (also known as multitier or layered architecture) is a traditional client-server software design pattern where various components are separated into distinct layers or "tiers". It is widely used for smaller, simpler applications.</p>
+                <p>N-tier architecture (also known as multitier or layered architecture) is a traditional client-server software design pattern.</p>
+                <p>The various components are separated into distinct layers or "tiers".</p>
+                <p>It is widely used for smaller, simpler applications.</p>
                 
                 <div class="box">
                     <h4>Key Characteristics</h4>
@@ -491,7 +507,8 @@ const termsData = {
                 </div>
 
                 <h3>Microservices Architecture</h3>
-                <p>A modern software design approach where an application is broken down into its smallest components, forming a collection of small, independent and loosely coupled services. Each microservice is designed to perform one specific business function and acts as its own mini-application.</p>
+                <p>A modern software design approach where an application is broken down into its smallest components, forming a collection of small, independent and loosely coupled services.</p>
+                <p>Each microservice is designed to perform one specific business function and acts as its own mini-application.</p>
                 
                 <div class="box">
                     <h4>Key Characteristics</h4>
@@ -521,7 +538,8 @@ const termsData = {
                 </div>
 
                 <h3>Event-driven Architecture</h3>
-                <p>A system design where the core structure revolves around the capture, communication, processing and persistence of "events". An <strong>event</strong> is defined as any significant occurrence or change in state within system hardware or software.</p>
+                <p>A system design where the core structure revolves around the capture, communication, processing and persistence of "events".</p>
+                <p>An <strong>event</strong> is defined as any significant occurrence or change in state within system hardware or software.</p>
                 
                 <div class="box">
                     <h4>Key Characteristics</h4>
@@ -550,7 +568,8 @@ const termsData = {
                 </div>
 
                 <h3>Service Oriented Architecture</h3>
-                <p>Structures an application into discrete, reusable services. It is very similar to microservices architecture.</p>
+                <p>Structures an application into discrete, reusable services.</p>
+                <p>It is very similar to microservices architecture.</p>
                 
                 <div class="box">
                     <h4>Key Characteristics</h4>
@@ -591,7 +610,7 @@ const termsData = {
                 <h3>Primary Uses</h3>
                 <ul>
                     <li><strong>Large Data Centers:</strong> SDNs are widely used in large data centers</li>
-                    <li><strong>Data Center Management:</strong> Data centers contain servers and networking equipment for storing, processing, and exchanging data. SDN simplifies network management by controlling networks through software</li>
+                    <li><strong>Data Center Management:</strong> Data centers contain servers and networking equipment for storing, processing, and exchanging data. SDN simplifies network management in data centers by controlling networks through software</li>
                     <li><strong>Hybrid Cloud Integration:</strong> SDN helps connect on-premise infrastructure with cloud infrastructure in hybrid cloud setups</li>
                     <li><strong>Cloud Integration Benefits:</strong> Software-based integration is easier and avoids hardware compatibility issues</li>
                     <li><strong>Vendor Support:</strong> Many vendors provide both cloud services and SDN solutions for simpler hybrid cloud integration</li>
@@ -740,7 +759,8 @@ const termsData = {
                 </ul>
 
                 <h3>Why SASE is Important</h3>
-                <p>SASE is more effective than traditional IT security at connecting and protecting networks. It provides secure, fast, and reliable connectivity for:</p>
+                <p>SASE is more effective than traditional IT security at connecting and protecting networks.</p>
+                <p>It provides secure, fast, and reliable connectivity for:</p>
                 <ul>
                     <li>A workforce (remote workers, employees)</li>
                     <li>A workplace (branch offices, headquarters)</li>
