@@ -31,7 +31,7 @@
 - User experience per application and device.
 
 ### Activity resource analyisis
--   Correlate slow activites with high resource utilization such as CPU or Memory.
+- Correlate slow activites with high resource utilization such as CPU or Memory.
 
 ## Monitor SLA dashboard
 - Track internal and external SLA compliance
